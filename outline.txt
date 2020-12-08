@@ -1,0 +1,11 @@
+Introduction 14 weeks
+what is networking
+network types
+OSI model
+what is the internet
+basic physical networks
+TCP-IP
+UDP
+Sockets
+Networking in games
+Client server-peer to peer

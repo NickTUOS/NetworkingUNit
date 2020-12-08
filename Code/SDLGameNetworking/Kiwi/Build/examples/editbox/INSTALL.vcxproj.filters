@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\f2dad984a5f03863e8a88ca871ed0c06\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE1DD509-5FD9-32AE-89AB-E15746B98C82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

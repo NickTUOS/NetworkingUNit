@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\custom-render\custom-render.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\aa652b6f7205765e01d71912368b8bb9\tileset.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\aa652b6f7205765e01d71912368b8bb9\skin.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\aa652b6f7205765e01d71912368b8bb9\Fontin-Regular.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\custom-render\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\custom-render\tileset.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\custom-render\skin.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\custom-render\Fontin-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE1DD509-5FD9-32AE-89AB-E15746B98C82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B6D62ED9-271A-35F0-A785-4196ABA398EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B39EFA30-8477-3540-BB3A-0FE9E3BC2ABE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

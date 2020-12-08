@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (SocketsTutorialCppServer.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Main.cpp
+  LINK : C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SocketsTutorial\Debug\CppServer.exe not found or not built by the last incremental link; performing full link
+  SocketsTutorial.vcxproj -> C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SocketsTutorial\Debug\CppServer.exe

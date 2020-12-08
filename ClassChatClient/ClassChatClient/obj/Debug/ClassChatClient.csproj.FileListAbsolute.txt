@@ -1,0 +1,10 @@
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\bin\Debug\ClassChatClient.exe.config
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\bin\Debug\ClassChatClient.exe
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\bin\Debug\ClassChatClient.pdb
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.csprojAssemblyReference.cache
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.Form1.resources
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.Properties.Resources.resources
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.csproj.GenerateResource.cache
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.csproj.CoreCompileInputs.cache
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.exe
+C:\Users\ndt59\source\repos\ClassChatClient\ClassChatClient\obj\Debug\ClassChatClient.pdb

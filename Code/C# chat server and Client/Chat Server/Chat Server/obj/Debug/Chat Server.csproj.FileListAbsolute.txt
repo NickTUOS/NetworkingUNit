@@ -1,0 +1,13 @@
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\ChatClient.exe.config
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\ChatClient.exe
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\ChatClient.pdb
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csprojAssemblyReference.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\ChatClient.Properties.Resources.resources
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\ChatClient.ServerMain.resources
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csproj.GenerateResource.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csproj.CoreCompileInputs.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\ChatClient.exe
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\ChatClient.pdb
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\ChatSystemCommon.dll
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\ChatSystemCommon.pdb
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csproj.CopyComplete

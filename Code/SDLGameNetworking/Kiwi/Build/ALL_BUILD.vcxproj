@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BB6A50B1-F9F0-35B3-95F6-D8DD7BE3E34C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master" "-BC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build" --check-stamp-file "C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCXXCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeSystem.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\KiWiConfig.cmake.in;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master" "-BC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build" --check-stamp-file "C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCXXCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeSystem.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\KiWiConfig.cmake.in;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master" "-BC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build" --check-stamp-file "C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCXXCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeSystem.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\KiWiConfig.cmake.in;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master" "-BC:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build" --check-stamp-file "C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/Build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeCXXCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeRCCompiler.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\3.13.1\CMakeSystem.cmake;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\KiWiConfig.cmake.in;C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\ZERO_CHECK.vcxproj">
+      <Project>{7180E11D-6322-389F-9C92-B986B5A69F16}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\src\KiWi.vcxproj">
+      <Project>{C534C0AE-6D44-3945-8713-F83E083A04FD}</Project>
+      <Name>KiWi</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\custom-render\custom-render.vcxproj">
+      <Project>{E6A2D010-9652-3E26-A05B-2DDC855DD182}</Project>
+      <Name>custom-render</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\debug-gizmos.vcxproj">
+      <Project>{08A90E23-91E8-393F-9AD7-9BE2F84C93E1}</Project>
+      <Name>debug-gizmos</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\drag\drag.vcxproj">
+      <Project>{33A1FAEB-F519-3937-A553-2D0B377E875B}</Project>
+      <Name>drag</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\editbox\editbox.vcxproj">
+      <Project>{79B9F38A-6F16-3688-BB44-E99BB9EBBCC7}</Project>
+      <Name>editbox</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\frame-family\frame-family.vcxproj">
+      <Project>{1F37929D-3ECE-34B4-BA57-C0786748D7C0}</Project>
+      <Name>frame-family</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\label\label.vcxproj">
+      <Project>{1C804005-3110-3122-98FD-2892178B46C8}</Project>
+      <Name>label</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\scrollbox\scrollbox.vcxproj">
+      <Project>{42771B78-2288-30C4-B287-3F4FC9848B56}</Project>
+      <Name>scrollbox</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\styleswitcher\styleswitcher.vcxproj">
+      <Project>{2B18F983-C2FC-3F36-88C2-F0517E40BBAE}</Project>
+      <Name>styleswitcher</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

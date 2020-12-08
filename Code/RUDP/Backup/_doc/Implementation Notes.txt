@@ -1,0 +1,30 @@
+This document contains implementation information, the how and the why ...
+
+To do :
+-------
+- Protect again SYN attack
+- 3 phase connect
+- Optimize "Memory copy"
+
+Interesting links
+-----------------
+Java Reliable protocol stack : http://www.jgroups.org/
+
+Implementation : MinRTO
+-----------------------
+I have test the min RTO but I have it slow down the transfer speed.
+
+I have set MinRTO = 200 ms (like TCP XP), but it slow down implementation.
+Even some Linux have MinRTO = 30 ms.
+
+So, I have put MinRTO = 0 ms !!!
+
+Implementation : SACK
+---------------------
+I have 4 ACK slots (range of ACK) in eack ACK.
+Maybe I should have 2 or 3.
+
+Implementation : PMTU Discovery
+-------------------------------
+It allow to discover the optimal MTU for our communication.
+It is not aggressive, it send a probe message each "5 seconds"

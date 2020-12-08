@@ -1,0 +1,21 @@
+Protocol stuff
+https://www.ics.uci.edu/~ejw/authoring/ns_dav.html
+http://www-inst.eecs.berkeley.edu/~cs161/fa05/Projects/Security_Project_Sample_Design_Document.html
+https://www.w3.org/Protocols/DesignIssues.html
+https://developer.ibm.com/tutorials/x-xmppintro/
+
+
+
+https://www.inetdaemon.com/tutorials/internet/tcp/tcp_header.shtml
+https://www.inetdaemon.com/tutorials/internet/tcp/3-way_handshake.shtml
+
+https://www.inetdaemon.com/tutorials/internet/tcp/data_transfer.shtml
+
+https://en.wikipedia.org/wiki/User_Datagram_Protocol
+https://en.wikipedia.org/wiki/Transmission_Control_Protocol
+https://www.inetdaemon.com/tutorials/internet/udp/index.shtml
+
+https://en.wikipedia.org/wiki/Reliable_User_Datagram_Protocol
+https://www.ietf.org/proceedings/44/I-D/draft-ietf-sigtran-reliable-udp-00.txt
+
+https://en.wikipedia.org/wiki/Application-layer_framing

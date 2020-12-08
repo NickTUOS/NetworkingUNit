@@ -1,0 +1,10 @@
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csprojAssemblyReference.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat_Server.Form1.resources
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat_Server.Properties.Resources.resources
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csproj.GenerateResource.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.csproj.CoreCompileInputs.cache
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\Chat Server.exe.config
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\Chat Server.exe
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\bin\Debug\Chat Server.pdb
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.exe
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\C# chat server and Client\Chat Server\Chat Server\obj\Debug\Chat Server.pdb

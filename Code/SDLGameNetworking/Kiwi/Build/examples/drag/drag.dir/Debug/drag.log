@@ -1,0 +1,27 @@
+﻿  drag.c
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\begin_code.h(37): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_assert.h(68): warning C4668: '__GNUC__' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\smmintrin.h(82): warning C4668: '__cplusplus' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\nmmintrin.h(35): warning C4668: '__cplusplus' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\wmmintrin.h(34): warning C4668: '__cplusplus' is not defined as a preprocessor macro, replacing with '0' for '#if/#elif'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ammintrin.h(251): warning C4255: '__slwpcb': no function prototype given: converting '()' to '(void)'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_keyboard.h(52): warning C4820: 'SDL_Keysym': '2' bytes padding added after data member 'mod'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(453): warning C4820: 'SDL_HapticDirection': '3' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(472): warning C4820: 'SDL_HapticConstant': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(555): warning C4820: 'SDL_HapticPeriodic': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(576): warning C4820: 'SDL_HapticPeriodic': '2' bytes padding added after data member 'fade_level'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(607): warning C4820: 'SDL_HapticCondition': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(624): warning C4820: 'SDL_HapticCondition': '2' bytes padding added after data member 'center'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(643): warning C4820: 'SDL_HapticRamp': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(662): warning C4820: 'SDL_HapticRamp': '2' bytes padding added after data member 'fade_level'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(682): warning C4820: 'SDL_HapticLeftRight': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(708): warning C4820: 'SDL_HapticCustom': '2' bytes padding added after data member 'type'
+c:\users\ndt59\onedrive - university of suffolk\uos\units\networking\code\sdlgamenetworking\libraries\sdl2-2.0.9\include\SDL_haptic.h(720): warning C4820: 'SDL_HapticCustom': '1' bytes padding added after data member 'channels'
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\drag\drag.c(19): warning C4100: 'widget': unreferenced formal parameter
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\drag\drag.c(23): warning C4100: 'y': unreferenced formal parameter
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\drag\drag.c(23): warning C4100: 'x': unreferenced formal parameter
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\drag\drag.c(37): warning C4100: 'argv': unreferenced formal parameter
+C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\drag\drag.c(37): warning C4100: 'argc': unreferenced formal parameter
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(948): warning C4710: 'int printf(const char *const ,...)': function not inlined
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17134.0\ucrt\stdio.h(948): note: see declaration of 'printf'
+  drag.vcxproj -> C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\drag\Debug\drag.exe

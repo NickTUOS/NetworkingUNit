@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\debug-gizmos\debug-gizmos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\tileset.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\tileset-alloy.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\tileset-futterpedia.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\tileset-flat.png.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\Fontin-Regular.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\DejaVuSans.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\CMakeFiles\a9c84d50f473dd0c8787af9f0e0a943c\SourceSansPro-Semibold.ttf.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\KiWi-master\KiWi-master\examples\debug-gizmos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\tileset.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\tileset-alloy.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\tileset-futterpedia.png">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\tileset-flat.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\Fontin-Regular.ttf" />
+    <None Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\DejaVuSans.ttf" />
+    <None Include="C:\Users\ndt59\OneDrive - University of Suffolk\UOS\Units\Networking\Code\SDLGameNetworking\Kiwi\Build\examples\debug-gizmos\SourceSansPro-Semibold.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{DE1DD509-5FD9-32AE-89AB-E15746B98C82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{B6D62ED9-271A-35F0-A785-4196ABA398EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B39EFA30-8477-3540-BB3A-0FE9E3BC2ABE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

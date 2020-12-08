@@ -1,0 +1,14 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.13/Modules/CMakeParseArguments.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckLibraryExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/CheckSymbolExists.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.13/Modules/FindThreads.cmake
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/cmake-modules/FindSDL2.cmake
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/cmake-modules/FindSDL2_image.cmake
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/cmake-modules/FindSDL2_ttf.cmake
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/resources/kiwires.cmake
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/src/CMakeLists.txt
+C:/Users/ndt59/OneDrive - University of Suffolk/UOS/Units/Networking/Code/SDLGameNetworking/Kiwi/KiWi-master/KiWi-master/src/file2c.c

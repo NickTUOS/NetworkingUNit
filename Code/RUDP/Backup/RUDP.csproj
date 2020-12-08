@@ -1,0 +1,154 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BC8140DC-D69D-4454-B7B3-086068558817}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RUDP</RootNamespace>
+    <AssemblyName>RUDP</AssemblyName>
+    <StartupObject>Test.Application.TestForm</StartupObject>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Helper\CommandProcessor\CommandProcessor.CLR.cs" />
+    <Compile Include="Helper\CommandProcessor\ICommand.cs" />
+    <Compile Include="Helper\Debug\ExceptionsHandler.cs" />
+    <Compile Include="Helper\Net\RUDP\NATTraversal\NATEndPointsManager.cs" />
+    <Compile Include="Helper\Net\RUDP\NATTraversal\NATHandler.cs" />
+    <Compile Include="Helper\Net\RUDP\NATTraversal\NATHistoryPoint.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\IngoingList.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\IngoingList.RWLock.cs" />
+    <Compile Include="Helper\Net\RUDP\PayloadManager\PayloadManager.cs" />
+    <Compile Include="Helper\Net\RUDP\MTUTuning\PMTUDiscovery.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\RUDPACKPacket.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\RUDPIngoingPacket.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\RUDPOutgoingPacket.cs" />
+    <Compile Include="Helper\Net\RUDP\Packet\RUDPPacketChannel.cs" />
+    <Compile Include="Helper\Net\RUDP\SACK\SACKWindow.cs" />
+    <Compile Include="Helper\Net\RUDP\Stack\BinaryHelper.cs" />
+    <Compile Include="Helper\Net\RUDP\Fragments\FragmentInformation.cs" />
+    <Compile Include="Helper\Net\RUDP\Stack\PhysicalSocket.cs" />
+    <Compile Include="Helper\Net\RUDP\Stack\RUDPStack.cs" />
+    <Compile Include="Helper\Net\RUDP\Timer\HiResTimer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\Net\RUDP\Window\BIC\CongestionWindow.cs" />
+    <Compile Include="Helper\Net\RUDP\Window\CTCP\CongestionWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\Net\RUDP\Window\CUBIC\CongestionWindow.cs" />
+    <Compile Include="Helper\Net\RUDP\Window\Reno\CongestionWindow.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helper\Net\RUDP\Window\AbstractWindow.cs" />
+    <Compile Include="Helper\Net\RUDP\Window\Tahoe\CongestionWindow.cs" />
+    <Compile Include="Helper\Net\UDT\UDTRegistration.cs" />
+    <Compile Include="Helper\Net\UDT\UDTSocket.cs" />
+    <Compile Include="Helper\ThreadingNET35\LockRecursionException.cs" />
+    <Compile Include="Helper\ThreadingNET35\LockRecursionPolicy.cs" />
+    <Compile Include="Helper\ThreadingNET35\ReaderWriterCount.cs" />
+    <Compile Include="Helper\ThreadingNET35\ReaderWriterLockSlim.cs" />
+    <Compile Include="Helper\ThreadingNET35\RecursiveCounts.cs" />
+    <Compile Include="Helper\Threading\Collections\LockFreeQueue.cs" />
+    <Compile Include="Helper\Threading\Collections\NodeManager.cs" />
+    <Compile Include="Helper\Threading\InterlockedEx.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Helper\Net\RUDP\AsyncResult.cs" />
+    <Compile Include="Helper\Net\RUDP\RUDPSocket.cs" />
+    <Compile Include="Test\Application\Instance\TestingSocketForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Application\Instance\TestingSocketForm.Designer.cs">
+      <DependentUpon>TestingSocketForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Application\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test\Application\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\Helper\Windows\PerformanceGraph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Test\Helper\Windows\Plotter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Test\Helper\Windows\Plotter.Designer.cs">
+      <DependentUpon>Plotter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Test\UnitTest\Connect\ConnectTest.cs" />
+    <Compile Include="Test\UnitTest\MultipleConnection\MultipleConnectionTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\UnitTest\Performance\PerformanceTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\UnitTest\RendezVous\RendezVousTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Test\UnitTest\Test.cs" />
+    <Compile Include="Test\UnitTest\TestLauncher.cs" />
+    <Compile Include="Test\UnitTest\NonReliable\NonReliableTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Test\Application\Instance\TestingSocketForm.resx">
+      <DependentUpon>TestingSocketForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test\Application\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Helper\Net\RUDP\RUDPSocket.cd" />
+    <None Include="Helper\Net\RUDP\SACK\SACK.cd" />
+    <None Include="Helper\Net\RUDP\Stack\RUDPStack.cd" />
+    <None Include="VTune\RUDP.vpj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="_doc\Implementation Notes.txt" />
+    <Content Include="_udtLib\transport.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Test\UnitTest\KeepAlive\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
